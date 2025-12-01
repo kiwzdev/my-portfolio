@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   FaBriefcase,
   FaEnvelope,
@@ -9,7 +8,7 @@ import {
 import ThemeChanger from "./ThemeChanger";
 
 const Navbar = ({ onNavigate }: { onNavigate: (id: string) => void }) => {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
   const menu = [
     { label: "Summary", href: "#summary" },
