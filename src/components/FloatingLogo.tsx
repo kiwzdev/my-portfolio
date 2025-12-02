@@ -53,7 +53,7 @@ export default function FloatingLogoMarqueeSlow() {
             <img
               src={logo}
               className="
-    w-28 h-28 mx-10 object-contain drop-shadow-xl 
+    w-28 h-28 mx-10 object-contain drop-shadow-xl md:drop-shadow-xl
     transition-transform duration-200 hover:scale-110
     dark:brightness-[0.85]
   "
