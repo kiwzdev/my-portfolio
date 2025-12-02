@@ -77,6 +77,7 @@ const Navbar = ({ onNavigate }: { onNavigate: (id: string) => void }) => {
           backdrop-blur-md
           border border-gray-300/40 dark:border-white/20
           shadow-lg
+          dark:text-white
         "
       >
         {open ? <IoCloseOutline size={28} /> : <RxHamburgerMenu size={28} />}
