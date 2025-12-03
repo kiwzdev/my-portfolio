@@ -153,7 +153,7 @@ const Home = () => {
                 <div className="mt-5 flex flex-wrap items-center gap-5 justify-center md:justify-start">
                   {/* GitHub */}
                   <a
-                    href="https://x.com/kiwzdev"
+                    href="https://github.com/kiwzdev"
                     target="_blank"
                     className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-all duration-300 hover:scale-110"
                   >
@@ -180,7 +180,7 @@ const Home = () => {
 
                   {/* X */}
                   <a
-                    href="https://x.com/kiwzx_x"
+                    href="https://x.com/kiwzdev"
                     target="_blank"
                     className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-all duration-300 hover:scale-110"
                   >
@@ -198,7 +198,7 @@ const Home = () => {
 
                   {/* Discord */}
                   <a
-                    href="https://discord.com/users/kiwzx_x"
+                    href="https://discord.com/users/242609859806101505"
                     target="_blank"
                     className="text-gray-600 dark:text-gray-300 hover:text-blue-400 transition-all duration-300 hover:scale-110"
                   >
@@ -420,7 +420,7 @@ const Home = () => {
                         </a>
 
                         <a
-                          href="https://x.com/kiwzx_x"
+                          href="https://x.com/kiwzdev"
                           target="_blank"
                           className="text-gray-700 dark:text-gray-900 hover:text-gray-900  transition hover:scale-110"
                         >
@@ -443,7 +443,7 @@ const Home = () => {
                         </a>
 
                         <a
-                          href="https://discord.com/users/kiwzx_x"
+                          href="https://discord.com/users/242609859806101505"
                           target="_blank"
                           className="text-gray-700 dark:text-gray-900 hover:text-blue-400  transition hover:scale-110"
                         >
