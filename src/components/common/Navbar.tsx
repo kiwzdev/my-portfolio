@@ -39,6 +39,7 @@ const Navbar = ({ onNavigate }: { onNavigate: (id: string) => void }) => {
                       text-xl transition
                       text-gray-700 dark:text-gray-300
                       hover:text-black dark:hover:text-white
+                      hover:cursor-pointer hover:underline duration-300
                     "
                     onClick={() => onNavigate(item.href.replace("#", ""))}
                   >

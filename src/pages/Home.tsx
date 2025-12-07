@@ -52,7 +52,7 @@ const Home = () => {
       <div className="px-4 sm:px-6 md:px-12 lg:px-32 pt-28 pb-20 space-y-16">
         <div
           className="
-  fixed top-24 lg:top-6 right-6 z-50 hidden sm:flex sm:flex-col lg:flex-row gap-4
+  fixed top-24 lg:top-6 right-6 z-50 hidden lg:flex xl:flex-row lg:flex-col gap-4
   bg-white/90 dark:bg-[#1a1a1a]/80
   backdrop-blur-xl 
   border border-white/20 dark:border-white/10
@@ -130,10 +130,11 @@ const Home = () => {
                   3rd Year Student @ MC KMUTNB
                 </div>
 
-                <p className="text-gray-700 dark:text-gray-200 leading-relaxed text-md md:text-xl">
-                  I am a passionate software developer specializing in
-                  full-stack development, UI/UX, scalable architecture, and
-                  building high-quality modern applications.
+                <p className="text-gray-700 dark:text-gray-200 leading-relaxed text-md md:text-lg">
+                  I have a strong interest in full-stack development.
+                  Experienced in building web applications through internship
+                  and personal projects. Highly motivated, and eager to learn
+                  new technologies.
                 </p>
                 <button
                   onClick={() => scrollToCenter("contact")}
@@ -250,7 +251,7 @@ const Home = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-start">
                   {/* LEFT — TIME */}
-                  <div className="text-gray-500 dark:text-gray-300 text-lg">
+                  <div className="text-black dark:text-gray-300 text-lg">
                     2023 – Present
                   </div>
 
@@ -266,7 +267,7 @@ const Home = () => {
 
                     <p className="text-gray-700 dark:text-gray-200 font-semibold text-xl">
                       GPAX:
-                      <span className="bg-yellow-200/60 px-2 py-1 rounded-md ">
+                      <span className="bg-yellow-300/60 px-2 py-1 rounded-md ">
                         3.92
                       </span>
                     </p>
@@ -301,7 +302,7 @@ const Home = () => {
                 {/* Experience Item */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                   {/* LEFT — TIME */}
-                  <div className="text-gray-500 dark:text-gray-300 text-lg">
+                  <div className="text-black dark:text-gray-300 text-lg">
                     Nov 2025 – Present
                   </div>
 
@@ -312,9 +313,11 @@ const Home = () => {
                     </p>
 
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed">
-                      Developing scalable systems, secure applications, and
-                      modern full-stack solutions across web and mobile
-                      platforms.
+                      Contributed to the development of{" "}
+                      <span className="font-medium text-gray-900 dark:text-gray-100">
+                        Attra Card
+                      </span>
+                      , a digital membership and rewards platform.
                     </p>
 
                     {/* Tech Badges (Logo + Minimal Hover) */}
@@ -344,12 +347,22 @@ const Home = () => {
                     </div>
 
                     <ul className="list-disc ml-6 space-y-2 text-gray-500 dark:text-gray-300">
-                      <li>Developed Web and Mobile applications</li>
-                      <li>Debugged client & server side issues</li>
-                      <li>Handled secure deployments</li>
-                      <li>Gathered requirements from clients</li>
-                      <li>Designed scalable system architecture</li>
-                      <li>Worked with Git, Agile/Scrum, CI/CD pipelines</li>
+                      <li>
+                        Designed and developed full-stack web applications.
+                      </li>
+                      <li>
+                        Created responsive, accessible UI components and
+                        optimized frontend performance.
+                      </li>
+                      <li>Implemented and maintained core backend features.</li>
+                      <li>
+                        Diagnosed and resolved issues across client, server
+                        layers.
+                      </li>
+                      <li>
+                        Collaborated using Git/GitLab and Agile/Scrum
+                        methodologies.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -376,7 +389,17 @@ const Home = () => {
                 </p>
 
                 {/* CONTACT PANEL */}
-                <div className="mt-12 bg-gray-100 dark:bg-[#ffffff] rounded-2xl p-10 shadow-sm dark:shadow-md">
+                <div
+                  className="
+    mt-12 
+    rounded-2xl 
+    p-10 
+    bg-gray-100 dark:bg-white/90
+    backdrop-blur-sm
+    border border-white/20 
+    shadow-[0_4px_12px_rgba(0,0,0,0.15)]
+  "
+                >
                   <div className="flex flex-col md:flex-row justify-center gap-12 md:gap-20">
                     {/* COLUMN 1 — EMAIL */}
                     <div className="space-y-3 text-center">
@@ -384,11 +407,11 @@ const Home = () => {
                         Email
                       </p>
 
-                      <div className="flex justify-center items-center gap-3 relative">
+                      <div className="flex justify-center items-center gap-3 relative break-all">
                         {/* Mailto link */}
                         <a
                           href="mailto:athit.thammawongphon@gmail.com"
-                          className="text-md sm:text-xl font-medium text-blue-800 dark:text-blue-500 hover:text-black transition 1break-all"
+                          className="text-md xl:text-xl font-medium text-blue-800 dark:text-blue-500 hover:text-black transition"
                           onClick={copyEmail}
                         >
                           athit.thammawongphon@gmail.com
@@ -410,7 +433,7 @@ const Home = () => {
                         Social
                       </p>
 
-                      <div className="flex justify-center gap-6 mt-2">
+                      <div className="flex justify-center gap-3 lg:gap-6 mt-2">
                         <a
                           href="https://github.com/kiwzdev"
                           target="_blank"
