@@ -100,7 +100,7 @@ const Home = () => {
               {/* Image Left */}
               <div className="w-full md:w-1/2 flex justify-center">
                 <img
-                  src="https://i.pinimg.com/1200x/fa/11/d0/fa11d05275ba52485c2f964eef620f52.jpg"
+                  src="/src/assets/university_photo1_square.png"
                   alt="Profile"
                   className="w-64 h-64 md:w-96 md:h-96 object-cover rounded-3xl shadow-2xl 
                    dark:shadow-gray-900 hover:scale-110 transition duration-300"
