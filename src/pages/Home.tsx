@@ -17,6 +17,9 @@ import { copyEmail } from "../utils/common/copyEmail";
 import ThemeChanger from "../components/common/ThemeChanger";
 import Reveal from "../hooks/Reveal";
 
+// assets
+import profileImg from '/src/assets/university_photo1_square.png';
+
 const Home = () => {
   const scrollToCenter = (id: string) => {
     const el = document.getElementById(id);
@@ -100,7 +103,7 @@ const Home = () => {
               {/* Image Left */}
               <div className="w-full md:w-1/2 flex justify-center">
                 <img
-                  src="/src/assets/university_photo1_square.png"
+                  src={profileImg}
                   alt="Profile"
                   className="w-64 h-64 md:w-96 md:h-96 object-cover rounded-3xl shadow-2xl 
                    dark:shadow-gray-900 hover:scale-110 transition duration-300"
